@@ -1,0 +1,13 @@
+.AboutMe {
+  margin-top: 150px;
+}
+
+p {
+  text-align: left;
+  font-size: x-large;
+  color: aliceblue;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+}
+
