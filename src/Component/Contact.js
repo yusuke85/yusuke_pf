@@ -14,7 +14,7 @@ const Contact = () => {
     setContactNumber(numStr.substring(numStr.length - 6))
   }
 
-  const { register, handleSubmit, watch, formState: { errors } } = useForm();
+  const { register, handleSubmit, formState: { errors } } = useForm();
   const onSubmit = (data) => {
     const form = document.querySelector('#contact-form')
     generateContactNumber();
