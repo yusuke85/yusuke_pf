@@ -17,7 +17,7 @@ const Works = () => {
         <Row style={{ maxWidth: "100%", marginLeft: "0", marginRight: "0"}} >
           <Col className="col-xs-12 col-lg-6" style={{ paddingLeft:"0px"}} >
             <Card className="card" >
-              <a href="https://cranky-hodgkin-0e75e8.netlify.app/" target="_blank">
+              <a href="https://cranky-hodgkin-0e75e8.netlify.app/" rel="noreferrer" target="_blank">
                 <Card.Img variant="top" className="image" src={Image} />
               </a>
             </Card>
@@ -33,7 +33,7 @@ const Works = () => {
         <Row style={{ maxWidth: "100%", marginLeft: "0", marginRight: "0"}} >
           <Col className="col-xs-12 col-lg-6" style={{ paddingLeft:"0px"}}>
             <Card >
-              <a href="https://proximitynetwork.web.app/" target="_blank">
+              <a href="https://proximitynetwork.web.app/" rel="noreferrer" target="_blank">
                 <Card.Img variant="top" className="image" src={Image2} />
               </a>
 
@@ -53,7 +53,7 @@ const Works = () => {
         <Row style={{ maxWidth: "100%", marginLeft: "0", marginRight: "0"}} >
           <Col className="col-xs-12 col-lg-6" style={{ paddingLeft:"0px"}}  >
             <Card >
-              <a href="https://kind-yalow-658427.netlify.app/" target="_blank">
+              <a href="https://kind-yalow-658427.netlify.app/" rel="noreferrer" target="_blank">
                 <Card.Img variant="top" className="image" src={Image3} />
               </a>
 

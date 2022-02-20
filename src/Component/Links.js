@@ -1,6 +1,6 @@
 import React from "react";
 import "./Links.css"
-import { Navbar, Nav, Container } from "react-bootstrap"
+import { Navbar, Nav } from "react-bootstrap"
 import { LinkContainer } from "react-router-bootstrap"
 // import { Row, Col } from "react-bootstrap";
 
@@ -10,16 +10,16 @@ const Links = () => {
 
   return (
     <>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <div className="container-fluid">
           <LinkContainer to="/" className="title">
             <Navbar.Brand><strong id="yusuke">Yusuke Fujita</strong></Navbar.Brand>
           </LinkContainer>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNav" style={{backgroundColor: "black"}}>
-            <ul class="navbar-nav" >
+          <div className="collapse navbar-collapse justify-content-end" id="navbarNav" style={{backgroundColor: "black"}}>
+            <ul className="navbar-nav" >
               <LinkContainer to="/Works">
                 <Nav.Link ><strong>Project</strong></Nav.Link>
               </LinkContainer>
