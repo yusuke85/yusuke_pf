@@ -38,7 +38,7 @@ const Contact = () => {
       })
   }
 
-  const message = watch('message') || "";
+  // const message = watch('message') || "";
   // const messageCharsLeft = 1500 - message.length;
 
   return (
