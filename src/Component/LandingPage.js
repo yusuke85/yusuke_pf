@@ -22,7 +22,7 @@ function LandingPage() {
       </Container>
 
       <small className="copyright">
-        <span>© Yusuke 2022</span>
+        <span>© Yusuke 2024</span>
       </small>
     </body>
   )
