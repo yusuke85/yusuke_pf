@@ -3,6 +3,7 @@ import "./Works.css"
 import Image from "../Images/Seis_Samurai.png";
 import Image2 from "../Images/Proximity_Network.png";
 import Image3 from "../Images/TodoList.png";
+import Image4 from "../Images/SamplingBarcelonaLP.png";
 import { Card, Container, Row, Col } from "react-bootstrap";
 
 const Works = () => {
@@ -14,8 +15,8 @@ const Works = () => {
 
       <Container className="Cards"  >
 
-        <Row style={{ maxWidth: "100%", marginLeft: "0", marginRight: "0"}} >
-          <Col className="col-xs-12 col-lg-6" style={{ paddingLeft:"0px"}} >
+        <Row style={{ maxWidth: "100%", marginLeft: "0", marginRight: "0" }} >
+          <Col className="col-xs-12 col-lg-6" style={{ paddingLeft: "0px" }} >
             <Card className="card" >
               <a href="https://cranky-hodgkin-0e75e8.netlify.app/" rel="noreferrer" target="_blank">
                 <Card.Img variant="top" className="image" src={Image} />
@@ -23,15 +24,15 @@ const Works = () => {
             </Card>
           </Col>
           <div className="col-xs-12 col-lg-6" id="tex">
-            <h4 className="text1" style={{ maxWidth: "100%"}}>
+            <h4 className="text1" style={{ maxWidth: "100%" }}>
               This is a web page that introduces Japanese dogs.
               <br />Introducing 6 kinds of dogs (samurai) from <br />Japan with each character.
             </h4>
           </div>
         </Row>
 
-        <Row style={{ maxWidth: "100%", marginLeft: "0", marginRight: "0"}} >
-          <Col className="col-xs-12 col-lg-6" style={{ paddingLeft:"0px"}}>
+        <Row style={{ maxWidth: "100%", marginLeft: "0", marginRight: "0" }} >
+          <Col className="col-xs-12 col-lg-6" style={{ paddingLeft: "0px" }}>
             <Card >
               <a href="https://proximitynetwork.web.app/" rel="noreferrer" target="_blank">
                 <Card.Img variant="top" className="image" src={Image2} />
@@ -50,8 +51,8 @@ const Works = () => {
           </div>
         </Row>
 
-        <Row style={{ maxWidth: "100%", marginLeft: "0", marginRight: "0"}} >
-          <Col className="col-xs-12 col-lg-6" style={{ paddingLeft:"0px"}}  >
+        <Row style={{ maxWidth: "100%", marginLeft: "0", marginRight: "0" }} >
+          <Col className="col-xs-12 col-lg-6" style={{ paddingLeft: "0px" }}  >
             <Card >
               <a href="https://kind-yalow-658427.netlify.app/" rel="noreferrer" target="_blank">
                 <Card.Img variant="top" className="image" src={Image3} />
@@ -60,12 +61,30 @@ const Works = () => {
             </Card>
           </Col>
 
-          <div className="col-xs-12 col-lg-6">
+          <div className="col-xs-12 col-lg-6" id="tex">
             <h4 className="text2">
-              This is a application that can manage schedules which< br/>
+              This is a application that can manage schedules which< br />
               used HTML, CSS and Javascript.< br />
               You can management your task which you have to do, < br />
               and It will help you plan to use your time effectively.
+            </h4>
+          </div>
+        </Row>
+
+        <Row style={{ maxWidth: "100%", marginLeft: "0", marginRight: "0" }} >
+          <Col className="col-xs-12 col-lg-6" style={{ paddingLeft: "0px" }}  >
+            <Card >
+              <a href="https://kazumi-music.herokuapp.com/" rel="noreferrer" target="_blank">
+                <Card.Img variant="top" className="image" src={Image4} />
+              </a>
+
+            </Card>
+          </Col>
+          <div className="col-xs-12 col-lg-6" id="tex">
+            <h4 className="text2">
+              A web page an ambient music artist Kazumi Sakoda.< br/>
+              If you click a photo on landing page you can get Barcelona's city sound. < br/>
+              And you can access her Youtube link, Bandcamp and another SNS link form Music page.
             </h4>
           </div>
         </Row>
